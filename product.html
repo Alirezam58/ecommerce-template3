@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav">
+            <h2 class="brand-logo">لباس شاپ</h2>
+            <div class="nav-items">
+                <div class="search">
+                    <button class="search-btn">جستجو</button>
+                    <input type="text" class="search-box" placeholder="جستجو کنید ...">
+                </div>
+                <a href="#"><img src="img/user.png" alt=""></a>
+                <a href="#"><img src="img/cart.png" alt=""></a>
+            </div>
+        </div>
+        <ul class="links-container">
+            <li class="link-item"><a href="#" class="link">صفحه اصلی</a></li>
+            <li class="link-item"><a href="#" class="link">مردانه</a></li>
+            <li class="link-item"><a href="#" class="link">زنانه</a></li>
+            <li class="link-item"><a href="#" class="link">بچه گانه</a></li>
+            <li class="link-item"><a href="#" class="link">مصنوع جات</a></li>
+        </ul>
+    </nav>
+    <!--Product Details-->
+    <section class="product-details">
+        <div class="image-slider">
+            <div class="product-images">
+                <img src="img/product image 1.png" alt="" class="active">
+                <img src="img/product image 2.png" alt="">
+                <img src="img/product image 3.png" alt="">
+                <img src="img/product image 4.png" alt="">
+            </div>
+        </div>
+        <div class="details">
+            <h2 class="product-brand">برندهای برتر</h2>
+            <p class="product-short-desc">در لباس شاپ می توانید مطرح ترین و جدیدترین برندهای دنیا را مقایسه نمایید</p>
+            <span class="price">45000</span><span class="actual-price">90000</span><span>تومان</span>
+            <p class="product-sub-heading">انتخاب اندازه</p>
+            <input type="radio" name="size" value="s" id="s-size" checked hidden>
+            <label for="s-size" class="size-radio-btn check">S</label>
+            <input type="radio" name="size" value="m" id="m-size" hidden>
+            <label for="m-size" class="size-radio-btn">M</label>
+            <input type="radio" name="size" value="l" id="l-size" hidden>
+            <label for="l-size" class="size-radio-btn">L</label>
+            <input type="radio" name="size" value="xl" id="xl-size" hidden>
+            <label for="xl-size" class="size-radio-btn">XL</label>
+            <input type="radio" name="size" value="xxl" id="xxl-size" hidden>
+            <label for="xxl-size" class="size-radio-btn">XXL</label>
+            <button class="btn cart-btn">افزودن به سبد خرید</button>
+            <button class="btn">افزودن به لیست علاقه مندی ها</button>
+        </div>
+    </section>
+    <!--Description-->
+    <section class="detail-desc">
+        <h2 class="heading">مشخصات</h2>
+        <p class="desc">برای جستجوی مشخصات محصول مورد نظر در این صفحه از منوی جستجوی موجود
+           همچنین می توانید با اشتراک گذاری صفحه های اجتماعی فروشگاه وجبلب مشتریان جدیدی بع درآمد زایی ببپردازید و سایر دوستان خود را به خرید از این فروشگاه دعوت نمایید لغات کلیدی تعبیه شده در سایت از قابلیت یافتن سریع محصول مورد نظر در کوتاهترین ظمانممکن نهایت استفاده را ببرید در سایت که به این منظور تعبیه شده است استفادده نموده و با بررسی مشخصات محصول مورد نظر در یافتن کالای دلخواه خود موفق باشید بابکاربردن</p>
+    </section>
+    <!--Cards Container-->
+    <section class="product">
+        <h2 class="product-category">پرفروشترین ها</h2>
+        <button class="pre-btn"><img src="./img/arrow.png" ></button>
+        <button class="nxt-btn"><img src="./img/arrow.png" ></button>
+        <div class="product-container">
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% تخفیف</span>
+                    <img src="./img/card1.png" class="product-thumb" alt="">
+                    <button class="card-btn">افزودن به لیست علاقه مندی ها</button>
+                </div>
+                <div class="product-info">
+                    <h4 class="product-brand">برند لباس</h4>
+                    <p class="product-short-desc">توضیح کوتاهی در مورد برند و لباس</p>
+                    <span class="price">45000</span><span class="actual-price">90000</span><span>تومان</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% تخفیف</span>
+                    <img src="./img/card2.png" class="product-thumb" alt="">
+                    <button class="card-btn">افزودن به لیست علاقه مندی ها</button>
+                </div>
+                <div class="product-info">
+                    <h4 class="product-brand">برند لباس</h4>
+                    <p class="product-short-desc">توضیح کوتاهی در مورد برند و لباس</p>
+                    <span class="price">45000</span><span class="actual-price">90000</span><span>تومان</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% تخفیف</span>
+                    <img src="./img/card3.png" class="product-thumb" alt="">
+                    <button class="card-btn">افزودن به لیست علاقه مندی ها</button>
+                </div>
+                <div class="product-info">
+                    <h4 class="product-brand">برند لباس</h4>
+                    <p class="product-short-desc">توضیح کوتاهی در مورد برند و لباس</p>
+                    <span class="price">45000</span><span class="actual-price">90000</span><span>تومان</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% تخفیف</span>
+                    <img src="./img/card4.png" class="product-thumb" alt="">
+                    <button class="card-btn">افزودن به لیست علاقه مندی ها</button>
+                </div>
+                <div class="product-info">
+                    <h4 class="product-brand">برند لباس</h4>
+                    <p class="product-short-desc">توضیح کوتاهی در مورد برند و لباس</p>
+                    <span class="price">45000</span><span class="actual-price">90000</span><span>تومان</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% تخفیف</span>
+                    <img src="./img/card5.png" class="product-thumb" alt="">
+                    <button class="card-btn">افزودن به لیست علاقه مندی ها</button>
+                </div>
+                <div class="product-info">
+                    <h4 class="product-brand">برند لباس</h4>
+                    <p class="product-short-desc">توضیح کوتاهی در مورد برند و لباس</p>
+                    <span class="price">45000</span><span class="actual-price">90000</span><span>تومان</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% تخفیف</span>
+                    <img src="./img/card6.png" class="product-thumb" alt="">
+                    <button class="card-btn">افزودن به لیست علاقه مندی ها</button>
+                </div>
+                <div class="product-info">
+                    <h4 class="product-brand">برند لباس</h4>
+                    <p class="product-short-desc">توضیح کوتاهی در مورد برند و لباس</p>
+                    <span class="price">45000</span><span class="actual-price">90000</span><span>تومان</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% تخفیف</span>
+                    <img src="./img/card7.png" class="product-thumb" alt="">
+                    <button class="card-btn">افزودن به لیست علاقه مندی ها</button>
+                </div>
+                <div class="product-info">
+                    <h4 class="product-brand">برند لباس</h4>
+                    <p class="product-short-desc">توضیح کوتاهی در مورد برند و لباس</p>
+                    <span class="price">45000</span><span class="actual-price">90000</span><span>تومان</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% تخفیف</span>
+                    <img src="./img/card8.png" class="product-thumb" alt="">
+                    <button class="card-btn">افزودن به لیست علاقه مندی ها</button>
+                </div>
+                <div class="product-info">
+                    <h4 class="product-brand">برند لباس</h4>
+                    <p class="product-short-desc">توضیح کوتاهی در مورد برند و لباس</p>
+                    <span class="price">45000</span><span class="actual-price">90000</span><span>تومان</span>
+                </div>
+            </div>
+        </div>
+    </section>
+      <!--Cards Container-->
+      <section class="product">
+        <h2 class="product-category">فروش ویژه</h2>
+        <button class="pre-btn"><img src="./img/arrow.png" ></button>
+        <button class="nxt-btn"><img src="./img/arrow.png" ></button>
+        <div class="product-container">
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% تخفیف</span>
+                    <img src="./img/card6.png" class="product-thumb" alt="">
+                    <button class="card-btn">افزودن به لیست علاقه مندی ها</button>
+                </div>
+                <div class="product-info">
+                    <h4 class="product-brand">برند لباس</h4>
+                    <p class="product-short-desc">توضیح کوتاهی در مورد برند و لباس</p>
+                    <span class="price">45000</span><span class="actual-price">90000</span><span>تومان</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% تخفیف</span>
+                    <img src="./img/card7.png" class="product-thumb" alt="">
+                    <button class="card-btn">افزودن به لیست علاقه مندی ها</button>
+                </div>
+                <div class="product-info">
+                    <h4 class="product-brand">برند لباس</h4>
+                    <p class="product-short-desc">توضیح کوتاهی در مورد برند و لباس</p>
+                    <span class="price">45000</span><span class="actual-price">90000</span><span>تومان</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% تخفیف</span>
+                    <img src="./img/card8.png" class="product-thumb" alt="">
+                    <button class="card-btn">افزودن به لیست علاقه مندی ها</button>
+                </div>
+                <div class="product-info">
+                    <h4 class="product-brand">برند لباس</h4>
+                    <p class="product-short-desc">توضیح کوتاهی در مورد برند و لباس</p>
+                    <span class="price">45000</span><span class="actual-price">90000</span><span>تومان</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% تخفیف</span>
+                    <img src="./img/card9.png" class="product-thumb" alt="">
+                    <button class="card-btn">افزودن به لیست علاقه مندی ها</button>
+                </div>
+                <div class="product-info">
+                    <h4 class="product-brand">برند لباس</h4>
+                    <p class="product-short-desc">توضیح کوتاهی در مورد برند و لباس</p>
+                    <span class="price">45000</span><span class="actual-price">90000</span><span>تومان</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% تخفیف</span>
+                    <img src="./img/card10.png" class="product-thumb" alt="">
+                    <button class="card-btn">افزودن به لیست علاقه مندی ها</button>
+                </div>
+                <div class="product-info">
+                    <h4 class="product-brand">برند لباس</h4>
+                    <p class="product-short-desc">توضیح کوتاهی در مورد برند و لباس</p>
+                    <span class="price">45000</span><span class="actual-price">90000</span><span>تومان</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% تخفیف</span>
+                    <img src="./img/card11.png" class="product-thumb" alt="">
+                    <button class="card-btn">افزودن به لیست علاقه مندی ها</button>
+                </div>
+                <div class="product-info">
+                    <h4 class="product-brand">برند لباس</h4>
+                    <p class="product-short-desc">توضیح کوتاهی در مورد برند و لباس</p>
+                    <span class="price">45000</span><span class="actual-price">90000</span><span>تومان</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% تخفیف</span>
+                    <img src="./img/card12.png" class="product-thumb" alt="">
+                    <button class="card-btn">افزودن به لیست علاقه مندی ها</button>
+                </div>
+                <div class="product-info">
+                    <h4 class="product-brand">برند لباس</h4>
+                    <p class="product-short-desc">توضیح کوتاهی در مورد برند و لباس</p>
+                    <span class="price">45000</span><span class="actual-price">90000</span><span>تومان</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% تخفیف</span>
+                    <img src="./img/card1.png" class="product-thumb" alt="">
+                    <button class="card-btn">افزودن به لیست علاقه مندی ها</button>
+                </div>
+                <div class="product-info">
+                    <h4 class="product-brand">برند لباس</h4>
+                    <p class="product-short-desc">توضیح کوتاهی در مورد برند و لباس</p>
+                    <span class="price">45000</span><span class="actual-price">90000</span><span>تومان</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--footer-->
+    <footer>
+        <div class="footer-content">
+            <h2 class="brand-logo">لباس شاپ</h2>
+            <div class="footer-ul-container">
+                <ul class="category">
+                    <li class="category-title">مردانه</li>
+                    <li><a href="#" class="footer-link">تی شرت</a></li>
+                    <li><a href="#" class="footer-link">پیراهن</a></li>
+                    <li><a href="#" class="footer-link">شلوار</a></li>
+                    <li><a href="#" class="footer-link">اسپورت</a></li>
+                    <li><a href="#" class="footer-link">لباس زیر</a></li>
+                </ul>
+                <ul class="category">
+                    <li class="category-title">زنانه</li>
+                    <li><a href="#" class="footer-link">مانتو</a></li>
+                    <li><a href="#" class="footer-link">پیراهن</a></li>
+                    <li><a href="#" class="footer-link">کت دامن</a></li>
+                    <li><a href="#" class="footer-link">مجلسی</a></li>
+                    <li><a href="#" class="footer-link">لباس زیر</a></li>
+                </ul>
+            </div>
+        </div>
+        <p class="footer-title">درباره ما</p>
+        <p class="info">شایلین شاپ در سال 1389 و در شهر رشت برای ارائه خدمات متنوع و مطلوب در حوضه پوشاک افتتاح گردید و با توجه به تنوع محصولات ارائه شده، خیلی سریع سهم عمده ای از بازار پوشاک شهر رشت را در اختیار گرفت. اکنون با بیش از 100 نفر سبب کارآفرینی نیز شده است</p>
+        <p class="info">آدرس : رشت خیابان صفاری</p>
+        <p class="info">تلفن : 09118366220</p>
+        <div class="footer-social-container">
+            <div>
+                <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-pinterest"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-telegram"></i></a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>طراحی و توسعه توسط NPISOFTWARE.IR</p>
+        </div>
+    </footer>
+    
+
+
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
